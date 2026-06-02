@@ -2,7 +2,7 @@ document
     .getElementById("btn")
     .addEventListener("click", function () {
 
-        fetch("http://localhost:3000/message")
+        fetch("https://toy-website-4kg5.onrender.com/message")
             .then(response => response.json())
             .then(data => {
 
