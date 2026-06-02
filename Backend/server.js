@@ -10,7 +10,7 @@ app.get("/message", (req, res) => {
         text: "This is response from backend.",
         tasks: [
             "nemuidesu",
-            "Oyasumi"
+            "oyasumi"
         ]
     });
 });
